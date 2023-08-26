@@ -1,15 +1,15 @@
 package com.driver;
 
 public class Main {
-class A  { 
-  String meth() {
+public static class A  { 
+  public  String meth() {
     return "Invoking method from class A";
   }
 }
 
-class B extends A {
+public static class B extends A {
   @Override
-  String meth() {
+  public  String meth() {
     return "Method is overridden in Extended class B";
   }
 }
